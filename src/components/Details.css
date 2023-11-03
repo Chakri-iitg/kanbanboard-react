@@ -1,0 +1,129 @@
+
+
+/* for Status  group */
+
+.details-div {
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: unset;
+    gap: 1.2rem;
+
+}
+
+
+.column-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+.column-header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    width: 100%;
+}
+
+.three-together {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.two-together {
+    width: 20%;
+    display: flex;
+    gap: 10%;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+
+.card-section {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    background-color: white;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0.4rem 0rem;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom {
+    display: flex;
+    gap: 0.6rem;
+}
+
+
+.bottom>div {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.bottom>div>svg {
+    border-radius: 50%;
+    color: grey;
+    font-size: 10px;
+    background-color:grey;
+}
+
+.bottom>div>p{
+    color: grey;
+}
+
+.bottom>svg{
+    color: grey;
+}
+
+.card-header>p{
+    color: grey;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card-header>svg{
+    color: white;
+    border-radius: 50%;
+    background-color: black;
+}
+
+
+/* for user group */
+
+.user-column-section{
+    padding: 0 1rem;
+    display: flex;
+    height: unset;
+    gap: 1.2rem;
+    
+}
